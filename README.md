@@ -4,7 +4,7 @@ Python ping library that don't require root privileges.
 This library aims to provide a set of python tools based on the ping command.
 It has the advantage of __not requiring administrator privileges__.
 ## Some examples
-#### `latency.ping()`
+#### `latency.ping() -> str:`
 With the execution of this python program:
 ```python
 #!python
@@ -38,7 +38,7 @@ rtt min/avg/max/mdev = 15.120/19.024/22.875/2.743 ms
 ```
 As you can see, `latency.ping()` is a seamless output from your platform integrated terminal.
 By default, it sets the number of times it will request in its sequence to 4.
-#### `latency.ping()`
+#### `latency.ping() -> float:`
 ```python
 #!python
 import latency
