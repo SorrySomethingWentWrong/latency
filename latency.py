@@ -1,3 +1,4 @@
+#!python
 """Latency measurements tools. (using system ping in shell subprocess)
 """
 
