@@ -38,7 +38,7 @@ rtt min/avg/max/mdev = 15.120/19.024/22.875/2.743 ms
 ```
 As you can see, `latency.ping()` is a seamless output from your platform integrated terminal.
 By default, it sets the number of times it will request in its sequence to 4.
-#### `latency.ping() -> float:`
+#### `latency.max_latency() -> float:`
 ```python
 #!python
 import latency
