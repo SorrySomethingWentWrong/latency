@@ -53,4 +53,4 @@ On Linux:
 16.933  ms
 ```
 As you can see, `latency.max_latency()` returns the maximum latency of the `ECHO_REQUEST` sequence in milliseconds.
-On windows thow, we lose precision below one millisecond.
+On windows thow, we lose precision below millisecond.
